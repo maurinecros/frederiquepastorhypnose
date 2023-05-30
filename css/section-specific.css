@@ -1,0 +1,38 @@
+#section-landing {
+  background: linear-gradient(
+      0deg,
+      rgba(248, 248, 246, 0.8),
+      rgba(248, 248, 246, 0.8)
+    ),
+    url("../img/bg.jpg");
+  height: 100vh;
+}
+
+#section-landing h1 {
+  margin-top: 30vh;
+}
+#section-deroulement-seance {
+  background: linear-gradient(
+      0deg,
+      rgba(248, 248, 246, 0.8),
+      rgba(248, 248, 246, 0.8)
+    ),
+    url("../img/bg-chalet.jpg");
+}
+
+#section-pour-quoi {
+  background: linear-gradient(
+      0deg,
+      rgba(248, 248, 246, 0.8),
+      rgba(248, 248, 246, 0.8)
+    ),
+    url("../img/stress-peur-anxiete.png");
+}
+
+#section-pour-quoi img {
+  margin-bottom: 30px;
+}
+
+#section-pour-quoi button {
+  margin-bottom: 30px;
+}
