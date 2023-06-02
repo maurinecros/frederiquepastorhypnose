@@ -9,6 +9,14 @@
   flex-direction: column;
 }
 
+.div-row-double-child {
+  justify-content: space-between;
+}
+
+.div-row-double-child > div {
+  width: 45%;
+}
+
 h1 {
   font-family: "Amiri";
   font-style: normal;
@@ -54,7 +62,7 @@ button {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
-  font-size: 13px;
+  font-size: 16px;
   line-height: 25px;
   color: #feae95;
   background-color: transparent;
@@ -62,6 +70,7 @@ button {
   border-radius: 24px;
   padding: 10px 20px;
   width: fit-content;
+  transition: 0.3s;
 }
 
 button:hover {
@@ -73,7 +82,7 @@ p {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
-  font-size: 13px;
+  font-size: 16px;
   line-height: 25px;
   color: #1a2633;
   margin-bottom: 20px;
@@ -83,7 +92,6 @@ b {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
-  font-size: 13px;
   line-height: 25px;
   color: #1a2633;
 }

@@ -30,8 +30,8 @@
 
     <section id="section-a-propos">
       <h2>À propos</h2>
-      <div class="div-row">
-        <div class="div-column" style="width: 50%">
+      <div class="div-row div-row-double-child">
+        <div class="div-column">
           <h3>Qu'est-ce que l'état d'hypnose ?</h3>
           <p>
             Ce n'est pas un état de sommeil comme on pourrait le croire avec
@@ -49,8 +49,37 @@
             <b>Il s'agit d'un état de conscience modifiée</b>, que je vous
             aiderai à atteindre.
           </p>
+          <button
+            id="more-hypnose"
+            onclick="revealContent('content-hypnose', 'more-hypnose')"
+          >
+            En savoir plus
+          </button>
+          <div id="content-hypnose" style="display: none; width: 100%">
+            <p>
+              Lors des séances d'hypnose, vous serez étonné et curieux de
+              pouvoir communiquer avec votre inconscient. Avez-vous remarqué la
+              partie inconsciente qui vous permet de conduire, d'écrire, de
+              marcher de façon automatique ? Celle qui crée une émotion en
+              fonction de la situation. Celle qui vous bloque quand vous voulez
+              arrêter de fumer ? Il s'agit ici de plusieurs parties
+              inconscientes et nous pourrons peu à peu changer les comportements
+              limitants, désactiver ce qui est inutile aujourd'hui pour mettre
+              en place de nouvelles façons d'agir.
+            </p>
+            <p>
+              L'hypnose va faciliter cette
+              <b>nouvelle perception de vous-même</b> et de votre environnement.
+            </p>
+            <button
+              id="more-hypnose"
+              onclick="revealContent('content-hypnose', 'more-hypnose')"
+            >
+              Afficher moins
+            </button>
+          </div>
         </div>
-        <div class="div-column" style="width: 50%">
+        <div class="div-column">
           <h3>À propos de Milton Erickson, psychiatre américain, 1901-1980</h3>
           <p>
             Frappé par la polio lorsqu'il était enfant, ses efforts pour se
@@ -62,10 +91,34 @@
             ses parts inconscientes, avec <b>un accompagnement bienveillant</b>
             non autoritaire.
           </p>
+          <button
+            id="more-psy-us"
+            onclick="revealContent('content-psy-us', 'more-psy-us')"
+          >
+            En savoir plus
+          </button>
+          <div id="content-psy-us" style="display: none; width: 100%">
+            <p>
+              Elle va <b>activer toutes vos ressources internes</b>, mettre du
+              <b>mouvement</b> plutôt que de subir une situation inconfortable.
+              Cette technique va favoriser le <b>changement</b> orienté vers
+              votre objectif, vos <b>valeurs</b>. C'est le patient qui trouve
+              son propre chemin, à son rythme, tout en respectant son contexte
+              relationnel et environnemental.
+            </p>
+            <p>
+              Lorsque cet état hypnotique est atteint, la personne devient plus
+              ouverte aux <b>suggestions</b> proposées par l'accompagnant.
+              Celles-ci sont adaptées à son vécu personnel. La relation
+              thérapeutique selon Milton Erickson est caractérisée par une
+              approche souple, non directive.
+            </p>
+            <button onclick="revealContent('content-psy-us', 'more-psy-us')">
+              Afficher moins
+            </button>
+          </div>
         </div>
       </div>
-
-      <button>En savoir plus</button>
     </section>
     <section id="section-pour-quoi">
       <h2>Pour quoi ?</h2>
@@ -78,8 +131,8 @@
           <div class="slider" id="slider">
             <!-- STRESS -->
             <div class="slide">
-              <div class="div-row">
-                <div class="div-column" style="width: 50%; margin: 0">
+              <div class="div-row div-row-double-child">
+                <div class="div-column">
                   <h3>Stress, peur et anxieté</h3>
                   <p>
                     Vos émotions vous submergent ? Elles envahissent votre
@@ -93,7 +146,7 @@
                     autrement.
                   </p>
                 </div>
-                <div class="div-column" style="width: 50%; margin: 0">
+                <div class="div-column">
                   <img src="img/stress_peur_anxiete.jpg" alt="" />
                   <button>Prendre rendez-vous</button>
                 </div>
@@ -102,8 +155,8 @@
 
             <!-- PHOBIES -->
             <div class="slide">
-              <div class="div-row">
-                <div class="div-column" style="width: 50%; margin: 0">
+              <div class="div-row div-row-double-child">
+                <div class="div-column">
                   <h3>Phobies</h3>
                   <p>
                     Araignée, voiture, avion, eau, chien, oiseaux, reptiles,
@@ -114,7 +167,7 @@
                     par vos progrès et si fier(e) de vous !
                   </p>
                 </div>
-                <div class="div-column" style="width: 50%; margin: 0">
+                <div class="div-column">
                   <img src="img/phobies.jpg" alt="" />
                   <button>Prendre rendez-vous</button>
                 </div>
@@ -123,8 +176,8 @@
 
             <!-- CONFIANCE -->
             <div class="slide">
-              <div class="div-row">
-                <div class="div-column" style="width: 50%; margin: 0">
+              <div class="div-row div-row-double-child">
+                <div class="div-column">
                   <h3>Confiance et estime de soi</h3>
                   <p>
                     Ces dernières vous ont fait défaut au cours de votre vie,
@@ -137,7 +190,7 @@
                     motivantes et joyeuses !
                   </p>
                 </div>
-                <div class="div-column" style="width: 50%; margin: 0">
+                <div class="div-column">
                   <img src="img/confiance_et_estime_de_soi.jpg" alt="" />
                   <button>Prendre rendez-vous</button>
                 </div>
@@ -146,8 +199,8 @@
 
             <!-- FECONDITE -->
             <div class="slide">
-              <div class="div-row">
-                <div class="div-column" style="width: 50%; margin: 0">
+              <div class="div-row div-row-double-child">
+                <div class="div-column">
                   <h3>Fécondité et grossesse</h3>
                   <p>
                     Ce merveilleux et précieux moment de vie a le droit d'être
@@ -168,7 +221,7 @@
                     bonheur.
                   </p>
                 </div>
-                <div class="div-column" style="width: 50%; margin: 0">
+                <div class="div-column">
                   <img src="img/fecondite_et_grossesse.jpg" alt="" />
                   <button>Prendre rendez-vous</button>
                 </div>
@@ -177,8 +230,8 @@
 
             <!-- TRAUMATISME -->
             <div class="slide">
-              <div class="div-row">
-                <div class="div-column" style="width: 50%; margin: 0">
+              <div class="div-row div-row-double-child">
+                <div class="div-column">
                   <h3>Traumatisme</h3>
                   <p>
                     Il existe de nombreux évènements traumatisants : accident,
@@ -195,8 +248,151 @@
                     viendra se substituer à ce qui était ressenti au départ.
                   </p>
                 </div>
-                <div class="div-column" style="width: 50%; margin: 0">
+                <div class="div-column">
                   <img src="img/traumatisme.jpg" alt="" />
+                  <button>Prendre rendez-vous</button>
+                </div>
+              </div>
+            </div>
+
+            <!-- DEUIL -->
+            <div class="slide">
+              <div class="div-row div-row-double-child">
+                <div class="div-column">
+                  <h3>Le deuil</h3>
+                  <p>
+                    Le deuil ne se limite pas à la perte d'une personne. C'est
+                    aussi la perte d'un emploi, un changement soudain de vie, un
+                    divorce, une maladie, la perte d'un organe, des périodes de
+                    vie comme le chômage, la naissance, la retraite, les enfants
+                    qui partent, etc…
+                  </p>
+                  <p>
+                    Vous ressentez de la tristesse, vous n'arrivez pas à passer
+                    à autre chose, à avancer dans la vie ?
+                  </p>
+                  <p>
+                    Le travail en hypnose se fait sur ce qui nous lie à cet
+                    évènement pour qu'il devienne, par l'imagination,
+                    facilitateur d'une remise en mouvement et permette d'aller
+                    de l'avant.
+                  </p>
+                </div>
+                <div class="div-column">
+                  <img src="img/deuil.jpg" alt="" />
+                  <button>Prendre rendez-vous</button>
+                </div>
+              </div>
+            </div>
+
+            <!-- GESTION DE LA DOULEUR -->
+            <div class="slide">
+              <div class="div-row div-row-double-child">
+                <div class="div-column">
+                  <h3>Gestion de la douleur</h3>
+                  <p>
+                    Douleur chronique, opératoire, cancéreuse, SEP,
+                    fibromyalgie… Cette douleur devient le centre de votre vie.
+                    Le travail en hypnose va pouvoir décentrer ce rapport, comme
+                    pour prendre de la distance.
+                  </p>
+                  <p>
+                    Je vais vous apprendre à diminuer cette intensité,
+                    délocaliser cet endroit douloureux, mettre du mouvement sur
+                    la perception de cette sensation désagréable, voire
+                    insupportable.
+                  </p>
+                  <p>
+                    Ensuite, vous deviendrez autonome grâce à l'apprentissage de
+                    l'auto hypnose, vous pourrez vous servir de cet outil à
+                    chaque fois que vous en avez besoin.
+                  </p>
+                </div>
+                <div class="div-column">
+                  <img src="img/gestion_de_la_douleur.jpg" alt="" />
+                  <button>Prendre rendez-vous</button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Troubles du sommeil et burn out -->
+            <div class="slide">
+              <div class="div-row div-row-double-child">
+                <div class="div-column" style="width: 50%; margin: 0">
+                  <h3>Troubles du sommeil et burn out</h3>
+                  <p>
+                    Vous avez des difficultés à vous endormir, vos nuits sont
+                    entrecoupées de réveils et alors les pensées se réveillent
+                    et vous envahissent, « ça mouline »… Vous vous réveillez le
+                    matin fatigué, le sommeil n'est pas réparateur.
+                  </p>
+                  <p>
+                    Je vous accompagne sur le chemin du retour au calme, de la
+                    gestion de l'anxiété. Ensemble, nous irons chercher les
+                    causes de ce problème et trouver simplement le retour au
+                    soulagement de se reposer la nuit.
+                  </p>
+                </div>
+                <div class="div-column" style="width: 50%; margin: 0">
+                  <img src="img/trouble_du_sommeil_et_burn_out.jpg" alt="" />
+                  <button>Prendre rendez-vous</button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Enfants et adolescents -->
+            <div class="slide">
+              <div class="div-row div-row-double-child">
+                <div class="div-column" style="width: 50%; margin: 0">
+                  <h3>Enfants et adolescents</h3>
+                  <p>
+                    Les enfants sont naturellement dans leur monde imaginaire.
+                    Lorsqu'ils jouent, ils sont déjà en état modifié de
+                    conscience. La séance va se baser sur leur créativité pour
+                    trouver eux-mêmes leurs solutions. Quelques séances
+                    suffisent pour changer une émotion, une difficulté.
+                  </p>
+                  <p>
+                    Mon expérience professionnelle avec les enfants est
+                    importante (animatrice et infirmière scolaire), je m'en sers
+                    pour établir une relation joyeuse et de confiance.
+                  </p>
+                  <p>
+                    Les raisons d'une consultation peuvent être l'énurésie,
+                    peurs et phobies, difficultés d'apprentissage, passage
+                    d'examens, confiance et estime de soi, timidité, se ronger
+                    les ongles, deuil…
+                  </p>
+                </div>
+                <div class="div-column" style="width: 50%; margin: 0">
+                  <img src="img/enfants_et_adolescents.jpg" alt="" />
+                  <button>Prendre rendez-vous</button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Addictions et dépendances -->
+            <div class="slide">
+              <div class="div-row div-row-double-child">
+                <div class="div-column" style="width: 50%; margin: 0">
+                  <h3>Addictions et dépendances</h3>
+                  <p>
+                    Vous souhaitez vous sentir libre de toute dépendance ?
+                    Tabac, alcool, alimentation… L'hypnose peut vous aider à
+                    vous débarrasser d'un comportement que vous jugez inutile
+                    aujourd'hui.
+                  </p>
+                  <p>
+                    Si vous ressentez une part de vous qui désire arrêter et une
+                    autre qui vous y empêche, il s'agit souvent d'un conflit
+                    interne. Quand le moment de se libérer parait évident,
+                    l'hypnose vous permet d'accéder à ces parties pour négocier
+                    et adopter un nouveau comportement bénéfique à votre santé
+                    physique et mentale. Goûtez à cette liberté !
+                  </p>
+                </div>
+                <div class="div-column" style="width: 50%; margin: 0">
+                  <img src="img/addictions_et_dependances.jpg" alt="" />
                   <button>Prendre rendez-vous</button>
                 </div>
               </div>
@@ -213,6 +409,11 @@
         <a class="bullet" onclick="selectSlide(2)"></a>
         <a class="bullet" onclick="selectSlide(3)"></a>
         <a class="bullet" onclick="selectSlide(4)"></a>
+        <a class="bullet" onclick="selectSlide(5)"></a>
+        <a class="bullet" onclick="selectSlide(6)"></a>
+        <a class="bullet" onclick="selectSlide(7)"></a>
+        <a class="bullet" onclick="selectSlide(8)"></a>
+        <a class="bullet" onclick="selectSlide(9)"></a>
       </div>
     </section>
 
@@ -220,26 +421,29 @@
       <h2>Qui suis-je ?</h2>
       <div>
         <h3>Mon rapport à l'hypnose</h3>
-        <div class="div-row">
+        <div class="div-row div-row-double-child" style="margin-bottom: 80px">
           <div class="div-column">
             <p>
               J'ai travaillé en tant qu'infirmière dans hôpital public durant 20
               ans. Tout d'abord en chirurgie gynécologique et viscérale, puis en
-              éducation thérapeutique pour les patients diabétiques. C'est la
-              relation avec le patient qui m'a toujours comblée dans ce métier.
-              L'aider, le soutenir, le motiver ou encore le rendre acteur de sa
-              santé font parties de mes valeurs et de ma principale motivation.
+              éducation thérapeutique pour les patients diabétiques. C'est
+              <b>la relation avec le patient</b> qui m'a toujours comblée dans
+              ce métier. L'aider, le soutenir, le motiver ou encore le rendre
+              <b>acteur de sa santé</b> font parties de mes valeurs et de ma
+              principale motivation.
             </p>
             <p>
               Depuis mes études d'infirmière, j'ai toujours été en recherche
               d'un outil pour enrichir cet accompagnement. Je me suis donc
-              formée à l'écoute active selon Carl Rogers, j'ai découvert les
-              conditions d'une meilleure relation et d'un accompagnement centré
-              sur la personne. Toujours en quête de garder cette relation, j'ai
-              choisi de quitter l'hôpital en 2010 pour devenir infirmière
-              scolaire en Ariège (09). Et un jour, j'ai rencontré l'hypnose… Je
-              me suis formée en 2016, durant 3 ans, avec l'Association Française
-              de la Nouvelle Hypnose.
+              formée à <b>l'écoute active selon Carl Rogers</b>, j'ai découvert
+              les conditions d'une meilleure relation et d'un accompagnement
+              centré sur la personne. Toujours en quête de garder cette
+              relation, j'ai choisi de quitter l'hôpital en 2010 pour devenir
+              infirmière scolaire en Ariège (09).
+            </p>
+            <p>
+              Et un jour, j'ai rencontré l'hypnose… Je me suis formée en 2016,
+              durant 3 ans, avec l'Association Française de la Nouvelle Hypnose.
             </p>
           </div>
           <div class="div-column">
@@ -250,9 +454,9 @@
               passionnent. L'hypnose crée le changement. Je guide la personne
               dans l'exploration de ses parts inconscientes dans une relation
               bienveillante. Je reste fascinée par son efficacité. L'hypnose
-              rejoint aussi ma pratique du yoga basée sur la respiration, le
-              retour à l'apaisement, l'exploration de soi-même, et trouver à
-              travers soi la solution à son problème.
+              rejoint aussi ma pratique du yoga basée sur la respiration,
+              <b>le retour à l'apaisement, l'exploration de soi-même</b>, et
+              trouver à travers soi la solution à son problème.
             </p>
             <p>
               En découvrant L'ARCHE avec Kevin Finel (Académie de Recherche et
@@ -266,8 +470,8 @@
 
       <div>
         <h3>Mon parcours</h3>
-        <div class="div-row">
-          <div class="div-column" style="width: 70%">
+        <div class="div-row div-row-double-child">
+          <div class="div-column" style="width: 55%">
             <div class="div-row parcours-line">
               <h4>2022</h4>
               <p>
@@ -317,25 +521,27 @@
               <p>Infirmière diplômée d'État</p>
             </div>
           </div>
-          <div class="div-column" style="width: 30%">
+          <div class="div-column" style="width: 35%">
             <img src="img/frederique_pastor.jpg" alt="" />
           </div>
         </div>
       </div>
     </section>
+
     <section id="section-deroulement-seance">
       <h2>Déroulement d'une séance</h2>
-      <div class="div-row">
-        <div class="div-column" style="width: 70%">
+      <div class="div-row div-row-double-child">
+        <div class="div-column" style="width: 60%">
           <h3>La consultation</h3>
           <p>
             Demander de l'aide à un praticien en hypnose implique d'affronter
             ses difficultés personnelles, ses émotions, et être prêt à changer
-            la problématique qui bloque une situation. C'est un engagement à ce
-            processus. Je suis soumise au secret professionnel et vous accueille
-            dans un cadre bienveillant. Le patient contribue activement à son
-            développement personnel. L'hypnose n'est pas « dormir passivement »,
-            l'accompagnant est présent comme un guide.
+            la problématique qui bloque une situation.
+            <b>C'est un engagement à ce processus</b>. Je suis soumise au secret
+            professionnel et vous accueille dans un cadre bienveillant.
+            <b>Le patient contribue activement à son développement personnel</b
+            >. L'hypnose n'est pas « dormir passivement », l'accompagnant est
+            présent comme un guide.
           </p>
           <p>
             L'état hypnotique n'est pas un état fixe dans lequel on est enfermé,
@@ -346,7 +552,8 @@
             Ensemble, sans jugement, nous irons à la recherche de vos ressources
             personnelles. En ressentant les émotions qui vous traversent, nous
             développerons vos capacités inconscientes, pour une meilleure
-            évolution. L'hypnose amène cela respectueusement et en douceur.
+            évolution.
+            <b>L'hypnose amène cela respectueusement et en douceur</b>.
           </p>
         </div>
         <div class="div-column" style="width: 30%">
@@ -382,7 +589,7 @@
         Chaque séance suivante vous permettra d'évoluer et vous établirez le
         rythme de ce changement.
       </p>
-      <b>Prix de la séance :</b>
+      <p><b>Prix de la séance :</b></p>
       <div class="div-row parcours-line">
         <h4>Adulte</h4>
         <p>50 euros</p>
@@ -393,18 +600,28 @@
       </div>
       <p class="highlighted">Uniquement chèque ou espèces</p>
     </section>
-    <footer class="div-row">
-      <div class="div-column">
+    <footer class="div-row div-row-double-child">
+      <div class="div-column" style="width: 25%">
         <h3>Contact</h3>
         <p>Frédérique Pastor</p>
         <p>16 majoula 09000 Saint Pierre de rivière</p>
         <p>06 23 64 01 06</p>
         <p>fredyloup@orange.fr</p>
       </div>
-      <div class="div-column">
+      <div class="div-column" style="width: 65%">
         <h3>Le cabinet</h3>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2919.5363973121675!2d1.5495013000000004!3d42.9669732!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12af164d8fc9ee41%3A0xad81f66fef85c7c!2s16%20Majoula%2C%2009000%20Saint-Pierre-de-Rivi%C3%A8re!5e0!3m2!1sfr!2sfr!4v1685737594897!5m2!1sfr!2sfr"
+          width="100%"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
       </div>
     </footer>
   </body>
   <script src="js/slideshow.js"></script>
+  <script src="js/reveal-content.js"></script>
 </html>

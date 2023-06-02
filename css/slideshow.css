@@ -2,6 +2,7 @@
   position: relative;
   overflow: hidden;
   height: 100%; /* Or set a fixed height */
+  font-size: 0;
 }
 
 .CSSgal .slider {
@@ -68,4 +69,8 @@
   background-color: transparent;
   margin: 0;
   height: fit-content;
+}
+
+.slide {
+  padding: 20px;
 }
