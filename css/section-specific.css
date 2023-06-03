@@ -6,6 +6,7 @@
     ),
     url("../img/bg.jpg");
   height: 100vh;
+  background-size: cover;
 }
 
 #section-landing h1 {
@@ -18,6 +19,7 @@
       rgba(248, 248, 246, 0.8)
     ),
     url("../img/bg-chalet.jpg");
+  background-size: cover;
 }
 
 #section-pour-quoi {
@@ -26,7 +28,8 @@
       rgba(248, 248, 246, 0.8),
       rgba(248, 248, 246, 0.8)
     ),
-    url("../img/stress-peur-anxiete.png");
+    url("../img/stress_peur_anxiete.jpg");
+  background-size: cover;
 }
 
 #section-pour-quoi img {
@@ -41,9 +44,11 @@ footer {
   padding: 100px 10%;
   background: linear-gradient(
       0deg,
-      rgba(248, 248, 246, 0.8),
-      rgba(248, 248, 246, 0.8)
+      rgba(248, 248, 246, 0.7),
+      rgba(248, 248, 246, 0.7)
     ),
-    url("../img/bg-footer.jpg");
+    url("../img/bg_footer 1.jpg");
+  background-size: cover;
   margin-bottom: 0;
+  width: 100%;
 }

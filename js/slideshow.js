@@ -3,7 +3,10 @@ var buttonRight = document.getElementById("slideshow-right");
 var slider = document.getElementById("slider");
 var bullets = document.getElementsByClassName("bullet");
 var slides = document.getElementsByClassName("slide");
+var images = document.querySelectorAll(".slide img");
+var sectionBackground = document.getElementById("section-pour-quoi");
 var currentIndex = 0;
+
 selectSlide(currentIndex);
 
 function selectSlide(targetIndex) {
@@ -19,6 +22,11 @@ function selectSlide(targetIndex) {
     bullets[i].classList.remove("active");
   }
   bullets[currentIndex].classList.add("active");
+  sectionBackground.style.background =
+    "linear-gradient(0deg, rgba(248, 248, 246, 0.8), rgba(248, 248, 246, 0.8)), url( '" +
+    images[targetIndex].src +
+    "')";
+  sectionBackground.style.backgroundSize = "cover";
 }
 
 buttonLeft.addEventListener("click", () => {
