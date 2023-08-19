@@ -53,3 +53,11 @@ footer {
   margin-bottom: 0;
   width: 100%;
 }
+
+.hover-zoom {
+  transition: .3s;
+}
+
+.hover-zoom:hover {
+  transform: scale(1.1);
+}
