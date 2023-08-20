@@ -123,6 +123,10 @@ header {
   z-index: 5;
 }
 
+header img {
+  margin: 20px 0;
+}
+
 header nav {
   display: flex;
   justify-content: space-between;
@@ -138,10 +142,67 @@ header nav a {
   line-height: 24px;
   text-align: center;
   color: #1a2633;
-  margin: 10px;
+  margin: 20px;
+  width: fit-content;
 }
 
 .highlighted {
   font-weight: 600;
   color: #df6a56;
+}
+
+.delete-computer {
+  display: none;
+}
+
+@media screen and (max-width: 800px) {
+  .delete-phone {
+    display: none;
+  }
+
+  .delete-computer {
+    display: flex;
+  }
+
+  h1 {
+    font-size: 25px;
+    line-height: normal;
+  }
+
+  h2 {
+    font-size: 25px;
+    margin-bottom: 15px;
+  }
+
+  h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  p {
+    font-size: 13px;
+  }
+
+  button {
+    font-size: 13px;
+  }
+
+  section .div-row {
+    flex-direction: column;
+  }
+
+  footer,
+  section {
+    margin-bottom: 50px;
+    padding: 0 10%;
+    padding-top: 50px;
+  }
+
+  .div-row-double-child > div {
+    width: 100%;
+  }
+
+  .parcours-line .div-row {
+    flex-direction: row;
+  }
 }
