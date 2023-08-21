@@ -33,6 +33,19 @@
   background-size: cover;
 }
 
+#section-qui-suis-je .parcours-lines {
+  width: 55%;
+}
+#section-deroulement-seance {
+  background: linear-gradient(
+      0deg,
+      rgba(248, 248, 246, 0.8),
+      rgba(248, 248, 246, 0.8)
+    ),
+    url("../img/bg-chalet.jpg");
+  background-size: cover;
+}
+
 #section-pour-quoi img {
   margin-bottom: 30px;
 }
@@ -60,4 +73,23 @@ footer {
 
 .hover-zoom:hover {
   transform: scale(1.1);
+}
+@media screen and (max-width: 800px) {
+  #section-pour-quoi .div-row {
+    flex-direction: row;
+  }
+
+  #section-qui-suis-je .parcours-line {
+    flex-direction: row;
+  }
+
+  #section-qui-suis-je img {
+    object-fit: cover;
+    height: 35vh;
+    margin-bottom: 20px;
+  }
+
+  #section-qui-suis-je .parcours-lines {
+    width: 100%;
+  }
 }

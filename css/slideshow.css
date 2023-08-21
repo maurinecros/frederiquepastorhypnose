@@ -3,6 +3,7 @@
   overflow: hidden;
   height: 100%; /* Or set a fixed height */
   font-size: 0;
+  width: 100%;
 }
 
 .CSSgal .slider {
@@ -72,4 +73,44 @@
 
 .slide {
   padding: 20px;
+}
+
+.slideshow {
+  align-items: center;
+}
+
+@media screen and (max-width: 800px) {
+  #section-pour-quoi .slide .div-row {
+    flex-direction: column-reverse;
+  }
+
+  .slide {
+    padding: 0;
+  }
+
+  .slideshow {
+    align-items: flex-start;
+  }
+
+  .slideshow #slideshow-left,
+  #slideshow-right {
+    margin-top: 70px;
+  }
+
+  #slideshow-left {
+    padding: 0px;
+  }
+
+  #slideshow-right {
+    padding: 0px;
+  }
+
+  .slide img {
+    width: 80%;
+    margin: auto;
+  }
+
+  .slider {
+    height: 100vh;
+  }
 }
