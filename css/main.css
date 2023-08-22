@@ -124,11 +124,14 @@ header {
   background: #f8f8f6;
   display: flex;
   justify-content: space-between;
-  z-index: 5;
 }
 
 header img {
   margin: 20px 0;
+}
+
+header > a  {
+  z-index: 100;
 }
 
 header nav {
