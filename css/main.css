@@ -195,6 +195,14 @@ header nav a {
     flex-direction: column;
   }
 
+  .div-row-double-child {
+    flex-direction: column;
+  }
+
+  section .parcours-line {
+    flex-direction: row;
+  }
+
   footer,
   section {
     margin-bottom: 50px;
@@ -209,4 +217,11 @@ header nav a {
   .parcours-line .div-row {
     flex-direction: row;
   }
+
+  header {
+    padding: 0 10%;
+    display: flex;
+    justify-content: space-between;
+  }
+
 }

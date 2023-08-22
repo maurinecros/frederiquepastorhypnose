@@ -113,4 +113,8 @@
   .slider {
     height: 100vh;
   }
+
+  .bullets {
+    padding-bottom: 50px;
+  }
 }
