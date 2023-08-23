@@ -162,6 +162,23 @@ header nav a {
   display: none;
 }
 
+.hidden-animation-div {
+  /* max-height: 0px; */
+  height: fit-content;
+  transition: .3s;
+  display: grid;
+  grid-template-rows: 0fr;
+}
+
+.showing-animation-div {
+  /* max-height: fit-content; */
+  grid-template-rows: 1fr;
+}
+
+.hidden-animation-div > div {
+  overflow: hidden;
+}
+
 @media screen and (max-width: 800px) {
   .delete-phone {
     display: none;

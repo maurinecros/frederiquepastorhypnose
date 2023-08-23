@@ -66,35 +66,25 @@
             <b>Il s'agit d'un état de conscience modifiée</b>, que je vous
             aiderai à atteindre.
           </p>
-          <button
-            id="more-hypnose"
-            onclick="revealContent('content-hypnose', 'more-hypnose')"
-          >
-            En savoir plus
-          </button>
-          <div id="content-hypnose" style="display: none; width: 100%;  transition: .3s;">
-            <p>
-              Lors des séances d'hypnose, vous serez étonné et curieux de
-              pouvoir communiquer avec votre inconscient. Avez-vous remarqué la
-              partie inconsciente qui vous permet de conduire, d'écrire, de
-              marcher de façon automatique ? Celle qui crée une émotion en
-              fonction de la situation. Celle qui vous bloque quand vous voulez
-              arrêter de fumer ? Il s'agit ici de plusieurs parties
-              inconscientes et nous pourrons peu à peu changer les comportements
-              limitants, désactiver ce qui est inutile aujourd'hui pour mettre
-              en place de nouvelles façons d'agir.
-            </p>
-            <p>
-              L'hypnose va faciliter cette
-              <b>nouvelle perception de vous-même</b> et de votre environnement.
-            </p>
-            <button
-              id="more-hypnose"
-              onclick="revealContent('content-hypnose', 'more-hypnose')"
-            >
-              Afficher moins
-            </button>
+          <div id="content-hypnose" class="hidden-animation-div" style="width: 100%;">
+            <div>
+              <p>
+                Lors des séances d'hypnose, vous serez étonné et curieux de
+                pouvoir communiquer avec votre inconscient. Avez-vous remarqué la
+                partie inconsciente qui vous permet de conduire, d'écrire, de
+                marcher de façon automatique ? Celle qui crée une émotion en
+                fonction de la situation. Celle qui vous bloque quand vous voulez
+                arrêter de fumer ? Il s'agit ici de plusieurs parties
+                inconscientes et nous pourrons peu à peu changer les comportements
+                limitants, désactiver ce qui est inutile aujourd'hui pour mettre
+                en place de nouvelles façons d'agir.
+              </p>
+              <p>
+                L'hypnose va faciliter cette <b>nouvelle perception de vous-même</b> et de votre environnement.
+              </p>
+            </div>
           </div>
+          <button id="more-hypnose" onclick="revealContent('content-hypnose', 'more-hypnose')">En savoir plus</button>
         </div>
         <div class="div-column delete-phone">
           <h3>À propos de Milton Erickson, psychiatre américain, 1901-1980</h3>
@@ -108,32 +98,27 @@
             ses parts inconscientes, avec <b>un accompagnement bienveillant</b>
             non autoritaire.
           </p>
-          <button
-            id="more-psy-us"
-            onclick="revealContent('content-psy-us', 'more-psy-us')"
-          >
-            En savoir plus
-          </button>
-          <div id="content-psy-us" style="display: none; width: 100%">
-            <p>
-              Elle va <b>activer toutes vos ressources internes</b>, mettre du
-              <b>mouvement</b> plutôt que de subir une situation inconfortable.
-              Cette technique va favoriser le <b>changement</b> orienté vers
-              votre objectif, vos <b>valeurs</b>. C'est le patient qui trouve
-              son propre chemin, à son rythme, tout en respectant son contexte
-              relationnel et environnemental.
-            </p>
-            <p>
-              Lorsque cet état hypnotique est atteint, la personne devient plus
-              ouverte aux <b>suggestions</b> proposées par l'accompagnant.
-              Celles-ci sont adaptées à son vécu personnel. La relation
-              thérapeutique selon Milton Erickson est caractérisée par une
-              approche souple, non directive.
-            </p>
-            <button onclick="revealContent('content-psy-us', 'more-psy-us')">
-              Afficher moins
-            </button>
+
+          <div id="content-psy-us"  class="hidden-animation-div" style="width: 100%">
+            <div>
+              <p>
+                Elle va <b>activer toutes vos ressources internes</b>, mettre du
+                <b>mouvement</b> plutôt que de subir une situation inconfortable.
+                Cette technique va favoriser le <b>changement</b> orienté vers
+                votre objectif, vos <b>valeurs</b>. C'est le patient qui trouve
+                son propre chemin, à son rythme, tout en respectant son contexte
+                relationnel et environnemental.
+              </p>
+              <p>
+                Lorsque cet état hypnotique est atteint, la personne devient plus
+                ouverte aux <b>suggestions</b> proposées par l'accompagnant.
+                Celles-ci sont adaptées à son vécu personnel. La relation
+                thérapeutique selon Milton Erickson est caractérisée par une
+                approche souple, non directive.
+              </p>
+            </div>
           </div>
+          <button id="more-psy-us" onclick="revealContent('content-psy-us', 'more-psy-us')">En savoir plus</button>
         </div>
       </div>
     </section>
@@ -465,51 +450,43 @@
               Et un jour, j'ai rencontré l'hypnose… Je me suis formée en 2016,
               durant 3 ans, avec l'Association Française de la Nouvelle Hypnose.
             </p>
-            <button
-              class="delete-computer"
-              id="more-studies"
-              onclick="revealContent('content-studies', 'more-studies')"
-            >
-              En savoir plus
-            </button>
-            <div id="content-studies" style="display: none; width: 100%;">
-              <p>
-                Depuis mes études d'infirmière, j'ai toujours été en recherche
-                d'un outil pour enrichir cet accompagnement. Je me suis donc
-                formée à <b>l'écoute active selon Carl Rogers</b>, j'ai
-                découvert les conditions d'une meilleure relation et d'un
-                accompagnement centré sur la personne. Toujours en quête de
-                garder cette relation, j'ai choisi de quitter l'hôpital en 2010
-                pour devenir infirmière scolaire en Ariège (09).
-              </p>
-              <p>
-                Et un jour, j'ai rencontré l'hypnose… Je me suis formée en 2016,
-                durant 3 ans, avec l'Association Française de la Nouvelle
-                Hypnose.
-              </p>
-              <p class="div-column delete-computer">
-                Elle propose des formations pour le personnel médical et
-                paramédical. Etudier le comportement, l'inconscient, les
-                émotions, la communication, la systémie familiale et les
-                neurosciences me passionnent. L'hypnose crée le changement. Je
-                guide la personne dans l'exploration de ses parts inconscientes
-                dans une relation bienveillante. Je reste fascinée par son
-                efficacité. L'hypnose rejoint aussi ma pratique du yoga basée
-                sur la respiration,
-                <b>le retour à l'apaisement, l'exploration de soi-même</b>, et
-                trouver à travers soi la solution à son problème.
-              </p>
-              <p class="div-column delete-computer">
-                En découvrant L'ARCHE avec Kevin Finel (Académie de Recherche et
-                de Connaissances en Hypnose Ericksionienne), je fais évoluer ma
-                pratique en formation continue et reste au cœur des dernières
-                recherches sur l'hypnose par des lectures et des conférences.
-              </p>
-              <button
-                onclick="revealContent('content-studies', 'more-studies')"
-              >
-                Afficher moins
-              </button>
+            <div id="content-studies"  class="hidden-animation-div" style="width: 100%;">
+              <div>
+                <p>
+                  Depuis mes études d'infirmière, j'ai toujours été en recherche
+                  d'un outil pour enrichir cet accompagnement. Je me suis donc
+                  formée à <b>l'écoute active selon Carl Rogers</b>, j'ai
+                  découvert les conditions d'une meilleure relation et d'un
+                  accompagnement centré sur la personne. Toujours en quête de
+                  garder cette relation, j'ai choisi de quitter l'hôpital en 2010
+                  pour devenir infirmière scolaire en Ariège (09).
+                </p>
+                <p>
+                  Et un jour, j'ai rencontré l'hypnose… Je me suis formée en 2016,
+                  durant 3 ans, avec l'Association Française de la Nouvelle
+                  Hypnose.
+                </p>
+                <p class="div-column delete-computer">
+                  Elle propose des formations pour le personnel médical et
+                  paramédical. Etudier le comportement, l'inconscient, les
+                  émotions, la communication, la systémie familiale et les
+                  neurosciences me passionnent. L'hypnose crée le changement. Je
+                  guide la personne dans l'exploration de ses parts inconscientes
+                  dans une relation bienveillante. Je reste fascinée par son
+                  efficacité. L'hypnose rejoint aussi ma pratique du yoga basée
+                  sur la respiration,
+                  <b>le retour à l'apaisement, l'exploration de soi-même</b>, et
+                  trouver à travers soi la solution à son problème.
+                </p>
+                <p class="div-column delete-computer">
+                  En découvrant L'ARCHE avec Kevin Finel (Académie de Recherche et
+                  de Connaissances en Hypnose Ericksionienne), je fais évoluer ma
+                  pratique en formation continue et reste au cœur des dernières
+                  recherches sur l'hypnose par des lectures et des conférences.
+                </p>
+              </div>
+              <button class="delete-computer" id="more-studies" 
+              onclick="revealContent('content-studies', 'more-studies')">En savoir plus</button>
             </div>
           </div>
           <div class="div-column delete-phone">
