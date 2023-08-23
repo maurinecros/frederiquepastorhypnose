@@ -163,7 +163,6 @@ header nav a {
 }
 
 .hidden-animation-div {
-  /* max-height: 0px; */
   height: fit-content;
   transition: .3s;
   display: grid;
@@ -171,7 +170,6 @@ header nav a {
 }
 
 .showing-animation-div {
-  /* max-height: fit-content; */
   grid-template-rows: 1fr;
 }
 
