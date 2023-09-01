@@ -3,8 +3,12 @@ html {
   scroll-behavior: smooth;
 }
 
-.white-space {
-  white-space: nowrap;
+.red {
+  color: #df6a56;
+}
+
+.center {
+  text-align: center;
 }
 
 .div-row {
