@@ -3,6 +3,10 @@ html {
   scroll-behavior: smooth;
 }
 
+.white-space {
+  white-space: nowrap;
+}
+
 .div-row {
   display: flex;
   flex-direction: row;
